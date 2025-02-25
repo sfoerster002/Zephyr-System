@@ -1,7 +1,7 @@
 import os, sys
 sys.path
 
-# define our data references
+# define our data references 
 input_table = 'SASHELP.CLASS'
 output_table = 'WORK.PYTHONOUT'
 
