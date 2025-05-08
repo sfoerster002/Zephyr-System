@@ -17,8 +17,8 @@
 %let measure=MPG_City;
 %let measureformat=%str(format=BEST6.);
 %let stat=MEAN;
-/* featureDev.  Change to 12 categories */
-%let n=12;
+/* featureDev1.  Change to 12 categories */
+%let n=14;
 %let category=Origin;
 title "Top Models by MPG_City for each region of Origin";
 footnote;
