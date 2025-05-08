@@ -9,7 +9,7 @@ output_table = 'WORK.PYTHONOUT'
 dfin = SAS.sd2df(input_table)
 
 # output to the log details about the table
-print("input data shape is:", dfin.shape)
+print("Enter shape:", dfin.shape)
 
 # call the python transpose
 dfout = dfin.transpose()
